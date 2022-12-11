@@ -76,3 +76,38 @@ header p{
     pointer-events: auto;
     transition: opacity 0.5s 0.5s ease;
 }
+/*Responsiveness Settings*/
+/*Media qeries*/
+@media (max-width: 650px) {
+    .wrapper {
+        height: 320px;
+        max-width: 250px;
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 16px 25px;
+        transition: height 0.2s ease;
+    }
+    header h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    header p {
+        color: rgb(131, 131, 131);
+        font-size: 12px;
+    }
+    .form input {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    .form button {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .wrapper .qr-code {
+        padding: 20px 0;
+    }
+    .wrapper.active {
+        height: 505px;
+    }
+}
