@@ -80,7 +80,7 @@ header p{
 /*Media qeries*/
 @media (max-width: 650px) {
     .wrapper {
-        height: 320px;
+        height: 265px;
         max-width: 250px;
         background-color: #fff;
         border-radius: 7px;
